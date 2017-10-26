@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Front end" verbose="1">
+   <test name="TC1_ConfirmThatPMACoreWebsiteIsOnline">
+        <classes>
+            <class name="com.pathomation.frontendui.TC1_ConfirmThatPMACoreWebsiteIsOnline"/>
+        </classes>
+    </test>
+    <test name="TC2_AccessIsDeniedForUsersThatHaveNoAccess">
+        <classes>
+            <class name="com.pathomation.frontendui.TC2_AccessIsDeniedForUsersThatHaveNoAccess"/>
+        </classes>
+    </test>
+   <test name="TC3_UsersCanLogInToPMAUnderTheRightConditions">
+        <classes>
+            <class name="com.pathomation.frontendui.TC3_UsersCanLogInToPMAUnderTheRightConditions"/>
+        </classes>
+    </test>
+
+   <test name="TC4_CreateNewRootDirectory">
+        <classes>
+            <class name="com.pathomation.frontendui.TC4_CreateNewRootDirectory"/>
+        </classes>
+    </test>
+
+    <test name="TC5_EditExistingRootDirectory">
+        <classes>
+            <class name="com.pathomation.frontendui.TC5_EditExistingRootDirectory"/>
+        </classes>
+    </test>
+
+    <test name="TC8_ValidationAdministrativeAttribute">
+        <classes>
+            <class name="com.pathomation.frontendui.TC8_ValidationAdministrativeAttribute"/>
+        </classes>
+    </test>
+
+    <test name="TC9_ValidationSuspendedAttribute">
+        <classes>
+            <class name="com.pathomation.frontendui.TC9_ValidationSuspendedAttribute"/>
+        </classes>
+    </test>
+
+    <test name="TC10_ImpactOfModifyingAdministrativeAndSuspendedAttributes">
+        <classes>
+            <class name="com.pathomation.frontendui.TC10_ImpactOfModifyingAdministrativeAndSuspendedAttributes"/>
+        </classes>
+    </test>
+
+    <test name="TC11_DiagnosticInstallationChecksAreOk">
+        <classes>
+            <class name="com.pathomation.frontendui.TC11_DiagnosticInstallationChecksAreOk"/>
+        </classes>
+    </test>
+    <test name="TC12_LicenseHandling">
+        <classes>
+            <class name="com.pathomation.frontendui.TC12_LicenseHandling"/>
+        </classes>
+    </test>
+
+
+    <test name="TC15_HandlingOfTooManyConcurrentUsers">
+        <classes>
+            <class name="com.pathomation.frontendui.TC15_HandlingOfTooManyConcurrentUsers"/>
+        </classes>
+    </test>
+
+    <test name="TC16_ViewingSlidesWithinPMAcore">
+        <classes>
+            <class name="com.pathomation.frontendui.TC16_ViewingSlidesWithinPMAcore"/>
+        </classes>
+    </test>
+
+    <test name="TC17_ImageParameters">
+        <classes>
+            <class name="com.pathomation.frontendui.TC17_ImageParameters"/>
+        </classes>
+    </test>
+    <test name="TC18_UserCreation">
+        <classes>
+            <class name="com.pathomation.frontendui.TC18_UserCreation"/>
+        </classes>
+    </test>
+
+   <test name="TC19_ErrorLogFiles" >
+        <classes>
+            <class name="com.pathomation.frontendui.TC19_ErrorLogFiles"/>
+        </classes>
+    </test>
+
+    <test name="TC20_LoggingOfInvalidLoginAttempts" >
+        <classes>
+            <class name="com.pathomation.frontendui.TC20_LoggingOfInvalidLoginAttempts"/>
+        </classes>
+    </test>
+
+    <test name="TC21_InstructionsAndManualsAvailability">
+        <classes>
+            <class name="com.pathomation.frontendui.TC21_InstructionsAndManualsAvailability"/>
+        </classes>
+    </test>
+
+	<test name="TC200018_4CreateNewUserWithEmailAsLogin">
+        <classes>
+            <class name="com.pathomation.frontendui.TC200018_4CreateNewUserWithEmailAsLogin"/>
+        </classes>
+    </test>
+    <test name="TC200100_CheckTileCustomizationParameters">
+        <classes>
+            <class name="com.pathomation.frontendui.TC200100_CheckTileCustomizationParameters"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,1 @@
+D:\test_environment\jenkins\workspace\PMA.core 2.x\TestResults\2017-10-10\Functional\Frontend\InternetExplorer_v9.0

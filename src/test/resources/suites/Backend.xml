@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Backend" verbose="1">
+
+    <test name="TC10001_WebservicesTest">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10001_WebservicesTest"/>
+        </classes>
+    </test>
+
+    <test name="TC10002_APIGetVersionInfoJSONTest">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10002_APIGetVersionInfoJSONTest"/>
+        </classes>
+    </test>
+
+    <test name="TC10002_APIGetVersionInfoTest">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10002_APIGetVersionInfoTest"/>
+        </classes>
+    </test>
+
+
+    <test name="TC10007_GetRootDirectoriesCallTest">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10007_GetRootDirectoriesCallTest"/>
+        </classes>
+    </test>
+
+    <test name="TC10008_GetDirectoriesCallTest">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10008_GetDirectoriesCallTest"/>
+        </classes>
+    </test>
+
+    <test name="TC10009_GetFilesCallTest">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10009_GetFilesCallTest"/>
+        </classes>
+    </test>
+
+    <test name="TC10010_GetUIDCallTest">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10010_GetUIDCallTest"/>
+        </classes>
+    </test>
+
+    <test name="TC10012_APICanAnnotate">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10012_APICanAnnotate"/>
+        </classes>
+    </test>
+    <test name="TC10013_API_GetAnnotations">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10013_API_GetAnnotations"/>
+        </classes>
+    </test>
+    <test name="TC10014_APIGetAnnotationDistance">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10014_APIGetAnnotationDistance"/>
+        </classes>
+    </test>
+    <test name="TC10015_APIGetAnnotationSurfaceArea">
+        <classes>
+            <class name="com.pathomation.backendapi.TC10015_APIGetAnnotationSurfaceArea"/>
+        </classes>
+    </test>
+    <test name="TC15001_AdminAuthenticate">
+        <classes>
+            <class name="com.pathomation.backendapi.TC15001_AdminAuthenticate"/>
+        </classes>
+    </test>
+    <test name="TC15003_AdminGetUsers">
+        <classes>
+            <class name="com.pathomation.backendapi.TC15003_AdminGetUsers"/>
+        </classes>
+    </test>
+    <test name="TC15005_Admin_ReverseLookupUID">
+        <classes>
+            <class name="com.pathomation.backendapi.TC15005_Admin_ReverseLookupUID"/>
+        </classes>
+    </test>
+    <test name="TC15006_AdminReverseLookupRootDirectory">
+        <classes>
+            <class name="com.pathomation.backendapi.TC15006_AdminReverseLookupRootDirectory"/>
+        </classes>
+    </test>
+    <test name="TC250002_AdminCreateUser">
+        <classes>
+            <class name="com.pathomation.backendapi.TC25002_AdminCreateUser"/>
+        </classes>
+    </test>
+
+
+</suite>
